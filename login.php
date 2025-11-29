@@ -1,43 +1,66 @@
 <?php
-require_once __DIR__ . '/db.php';
-require_once __DIR__ . '/helpers.php';
+require_once __DIR__ . '/../db.php';
+require_once __DIR__ . '/../helpers.php';
 
-session_start();
+if (!empty($_SESSION['admin_id'])) {
+    header('Location: index.php');
+    exit;
+}
 
-// URL sẽ quay lại sau khi login xong
-$redirect = $_GET['redirect'] ?? BASE_URL;
-
-// Xử lý submit form
-$errors = [];
+$error = null;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $email    = trim($_POST['email'] ?? '');
-    $password = trim($_POST['password'] ?? '');
+    $email = trim($_POST['email'] ?? '');
+    $password = $_POST['password'] ?? '';
 
     if ($email === '' || $password === '') {
-        $errors[] = 'Vui lòng nhập đầy đủ Email và Mật khẩu.';
+        $error = 'Vui lòng nhập email và mật khẩu.';
     } else {
-        // TODO: sửa lại tên bảng user cho đúng
-        $stmt = $pdo->prepare("SELECT id, name, password_hash FROM users WHERE email = :email LIMIT 1");
-        $stmt->execute([':email' => $email]);
-        $user = $stmt->fetch(PDO::FETCH_ASSOC);
-
-        if (!$user || !password_verify($password, $user['password_hash'])) {
-            $errors[] = 'Email hoặc mật khẩu không đúng.';
-        } else {
-            $_SESSION['user_id']   = $user['id'];
-            $_SESSION['user_name'] = $user['name'];
-
-            header('Location: ' . $redirect);
+        $stmt = $pdo->prepare("SELECT * FROM users WHERE email = ? AND is_active = 1 AND role IN ('editor','admin','superadmin')");
+        $stmt->execute([$email]);
+        $user = $stmt->fetch();
+        if ($user && password_verify($password, $user['password_hash'])) {
+            $_SESSION['admin_id'] = $user['id'];
+            $_SESSION['admin_role'] = $user['role'];
+            header('Location: index.php');
             exit;
+        } else {
+            $error = 'Thông tin đăng nhập không đúng hoặc tài khoản không có quyền admin.';
         }
     }
 }
-
-// render form
-$pageTitle       = 'Đăng nhập';
-$metaDescription = 'Đăng nhập tài khoản Gamemoira Pro để đăng MU mới.';
-
-require __DIR__ . '/templates/header.php';
-require __DIR__ . '/templates/auth_login.php';
-require __DIR__ . '/templates/footer.php';
+?>
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Đăng nhập Admin - Gamemoira</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card shadow-sm" style="max-width: 360px; width: 100%;">
+        <div class="card-body">
+            <h1 class="h5 mb-3 text-center">Admin Gamemoira</h1>
+            <?php if ($error): ?>
+                <div class="alert alert-danger small"><?= e($error) ?></div>
+            <?php endif; ?>
+            <form method="post">
+                <div class="mb-3">
+                    <label class="form-label small">Email</label>
+                    <input type="email" name="email" class="form-control form-control-sm" required
+                           value="<?= e($_POST['email'] ?? '') ?>">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label small">Mật khẩu</label>
+                    <input type="password" name="password" class="form-control form-control-sm" required>
+                </div>
+                <button class="btn btn-primary w-100 btn-sm">Đăng nhập</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

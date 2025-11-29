@@ -1,79 +1,55 @@
 <?php
-require_once __DIR__ . '/db.php';
-require_once __DIR__ . '/helpers.php';
+// admin/index.php (Dashboard)
+require_once __DIR__ . '/_init.php';
 
-// Logout user (public)
-if (isset($_GET['logout'])) {
-    session_unset();
-    session_destroy();
-    redirect(BASE_URL);
-}
+$adminPage = 'dashboard';
+$pageTitle = 'Dashboard';
 
-$route = $_GET['route'] ?? '';
+$totalUsers        = (int)$pdo->query("SELECT COUNT(*) FROM users")->fetchColumn();
+$totalPosts        = (int)$pdo->query("SELECT COUNT(*) FROM posts")->fetchColumn();
+$totalBanners      = (int)$pdo->query("SELECT COUNT(*) FROM banners")->fetchColumn();
+$totalTransactions = (int)$pdo->query("SELECT COUNT(*) FROM transactions")->fetchColumn();
 
-$route = trim($route, '/');
+require __DIR__ . '/header.php';
+?>
 
-// Map các route cố định
-switch ($route) {
-    case '':
-    case 'trang-chu':
-        $template = 'home.php';
-        break;
-    case 'blog':
-        $template = 'blog_list.php';
-        break;
-    case 'tai-lieu':
-        $template = 'docs.php';
-        break;
-    case 'lien-he':
-        $template = 'contact.php';
-        break;
-    case 'tim-kiem':
-        $template = 'search.php';
-        break;
-    case 'dang-nhap':
-        $template = 'auth_login.php';
-        break;
-    case 'dang-ky':
-        $template = 'auth_register.php';
-        break;
-    case 'quen-mat-khau':
-        $template = 'auth_forgot.php';
-        break;
-    case 'doi-mat-khau':
-        $template = 'auth_change.php';
-        break;
-    case 'dang-bai':
-        $template = 'post_form_public.php';
-        break;
-    default:
-        // Bài viết: /bai-viet/slug-id
-        if (preg_match('~^bai-viet/(.+)-(\d+)$~', $route, $m)) {
-            $_GET['post_id'] = (int)$m[2];
-            $template = 'post_detail.php';
-        } else {
-            // Trang tĩnh: slug trong bảng pages
-            $slug = $route;
-            $stmt = $pdo->prepare("SELECT * FROM pages WHERE slug = ?");
-            $stmt->execute([$slug]);
-            $page = $stmt->fetch();
-            if ($page) {
-                $template = 'page.php';
-                $GLOBALS['current_page_data'] = $page;
-            } else {
-                // 404 đơn giản
-                http_response_code(404);
-                $pageTitle = 'Trang không tồn tại';
-                $metaDescription = 'Không tìm thấy nội dung yêu cầu.';
-                include __DIR__ . '/templates/header.php';
-                echo '<div class="container my-5"><h1 class="h4">404 - Không tìm thấy trang</h1><p class="text-muted">Liên kết bạn truy cập không tồn tại hoặc đã bị xóa.</p></div>';
-                include __DIR__ . '/templates/footer.php';
-                exit;
-            }
-        }
-        break;
-}
+<h1 class="admin-page-title">Dashboard</h1>
 
-include __DIR__ . '/templates/header.php';
-include __DIR__ . '/templates/' . $template;
-include __DIR__ . '/templates/footer.php';
+<div class="admin-grid-2">
+    <div class="admin-card">
+        <h2 class="admin-card-title">Thống kê nhanh</h2>
+        <div class="admin-table-wrapper">
+            <table class="admin-table">
+                <tbody>
+                <tr>
+                    <td>Tài khoản</td>
+                    <td><strong><?= $totalUsers ?></strong></td>
+                </tr>
+                <tr>
+                    <td>Tin đăng</td>
+                    <td><strong><?= $totalPosts ?></strong></td>
+                </tr>
+                <tr>
+                    <td>Banner</td>
+                    <td><strong><?= $totalBanners ?></strong></td>
+                </tr>
+                <tr>
+                    <td>Giao dịch GOLD</td>
+                    <td><strong><?= $totalTransactions ?></strong></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="admin-card">
+        <h2 class="admin-card-title">Ghi chú</h2>
+        <p style="font-size:13px;color:var(--admin-text-muted);">
+            - Quản lý toàn bộ nội dung website trong khu vực admin này.<br>
+            - Không cần chỉnh sửa code PHP, mọi thứ đều thông qua giao diện quản trị.<br>
+            - Sử dụng menu bên trái để truy cập các chức năng: Tin đăng, Banner, GOLD, Cài đặt...
+        </p>
+    </div>
+</div>
+
+<?php require __DIR__ . '/footer.php'; ?>

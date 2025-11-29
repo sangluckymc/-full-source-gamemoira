@@ -1,370 +1,128 @@
-[17-Nov-2025 07:31:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:32
+[16-Nov-2025 12:52:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/contacts.php on line 11
+[16-Nov-2025 15:30:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[16-Nov-2025 15:31:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[16-Nov-2025 15:39:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[16-Nov-2025 15:45:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[16-Nov-2025 15:46:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[16-Nov-2025 15:47:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 01:16:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 11
+[17-Nov-2025 01:16:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 11
+[17-Nov-2025 01:16:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 11
+[17-Nov-2025 01:17:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 11
+[17-Nov-2025 01:55:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 01:56:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 01:56:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 01:57:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 01:57:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 02:15:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 02:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 02:16:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 04:05:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:13) in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 77
+[17-Nov-2025 14:56:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:104) in /home/btqsgr3aeb6m/public_html/admin/posts.php on line 17
+[18-Nov-2025 01:50:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:101) in /home/btqsgr3aeb6m/public_html/admin/admin_game_submissions.php on line 55
+[18-Nov-2025 02:14:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:104) in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 70
+[18-Nov-2025 10:42:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:101) in /home/btqsgr3aeb6m/public_html/admin/admin_game_submissions.php on line 55
+[18-Nov-2025 10:43:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:104) in /home/btqsgr3aeb6m/public_html/admin/posts.php on line 131
+[18-Nov-2025 10:44:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:104) in /home/btqsgr3aeb6m/public_html/admin/posts.php on line 131
+[18-Nov-2025 10:44:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/admin/header.php:104) in /home/btqsgr3aeb6m/public_html/admin/posts.php on line 131
+[19-Nov-2025 02:30:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(106): PDO->query()
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 32
-[17-Nov-2025 07:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:32
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 106
+[19-Nov-2025 02:30:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(106): PDO->query()
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 32
-[17-Nov-2025 07:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:32
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 106
+[19-Nov-2025 02:30:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(106): PDO->query()
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 32
-[17-Nov-2025 07:32:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:32
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 106
+[19-Nov-2025 02:30:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(106): PDO->query()
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 32
-[17-Nov-2025 07:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:32
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 106
+[19-Nov-2025 02:30:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(106): PDO->query()
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 32
-[17-Nov-2025 07:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:32
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 106
+[19-Nov-2025 02:31:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(106): PDO->query()
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 32
-[17-Nov-2025 07:32:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:32
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 106
+[19-Nov-2025 02:31:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(106): PDO->query()
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 32
-[17-Nov-2025 07:32:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:32
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 106
+[23-Nov-2025 10:05:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:117
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(117): PDO->query('\n    SELECT *\n ...')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 32
-[17-Nov-2025 07:34:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 117
+[23-Nov-2025 10:05:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:117
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(117): PDO->query('\n    SELECT *\n ...')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:34:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 117
+[23-Nov-2025 10:07:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'order clause' in /home/btqsgr3aeb6m/public_html/admin/menus.php:117
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/menus.php(117): PDO->query('\n    SELECT *\n ...')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:34:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/menus.php on line 117
+[23-Nov-2025 10:07:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.image' in 'field list' in /home/btqsgr3aeb6m/public_html/admin/banners.php:8
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/banners.php(8): PDO->query('\n    SELECT b.i...')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:34:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/banners.php on line 8
+[23-Nov-2025 10:07:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.boosted_at' in 'field list' in /home/btqsgr3aeb6m/public_html/admin/posts.php:8
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/posts.php(8): PDO->query('\n    SELECT p.i...')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:34:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/posts.php on line 8
+[23-Nov-2025 10:07:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gs.user_id' in 'on clause' in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/game_submissions.php(106): PDO->query('\n    SELECT gs....')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:34:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php on line 106
+[23-Nov-2025 10:07:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gs.user_id' in 'on clause' in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/game_submissions.php(106): PDO->query('\n    SELECT gs....')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:34:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php on line 106
+[23-Nov-2025 10:07:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gs.user_id' in 'on clause' in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/game_submissions.php(106): PDO->query('\n    SELECT gs....')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:34:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php on line 106
+[23-Nov-2025 10:07:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gs.user_id' in 'on clause' in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/game_submissions.php(106): PDO->query('\n    SELECT gs....')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:34:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php on line 106
+[23-Nov-2025 10:07:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gs.user_id' in 'on clause' in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php:106
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
+#0 /home/btqsgr3aeb6m/public_html/admin/game_submissions.php(106): PDO->query('\n    SELECT gs....')
 #1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:34:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
+  thrown in /home/btqsgr3aeb6m/public_html/admin/game_submissions.php on line 106
+[23-Nov-2025 13:05:07 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 155
+[23-Nov-2025 13:05:07 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 155
+[23-Nov-2025 13:05:07 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 156
+[23-Nov-2025 13:42:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 155
+[23-Nov-2025 13:42:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 155
+[23-Nov-2025 13:42:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 156
+[23-Nov-2025 14:03:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 155
+[23-Nov-2025 14:03:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 155
+[23-Nov-2025 14:03:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 156
+[24-Nov-2025 12:35:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function changeUserGold() in /home/btqsgr3aeb6m/public_html/admin/gold_topups.php:43
 Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:35:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:36:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:39
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 39
-[17-Nov-2025 07:39:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:34
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 34
-[17-Nov-2025 07:40:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:34
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 34
-[17-Nov-2025 07:40:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:34
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 34
-[17-Nov-2025 07:40:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:34
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 34
-[17-Nov-2025 07:42:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function old() in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php:34
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/index.php(78): include()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 34
-[18-Nov-2025 02:07:02 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 157
-[18-Nov-2025 02:07:02 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 161
-[18-Nov-2025 02:07:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_vip' in 'where clause' in /home/btqsgr3aeb6m/public_html/templates/home.php:201
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(201): PDOStatement->execute()
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 201
-[18-Nov-2025 02:09:45 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 157
-[18-Nov-2025 02:09:45 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 161
-[18-Nov-2025 02:09:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_vip' in 'where clause' in /home/btqsgr3aeb6m/public_html/templates/home.php:201
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(201): PDOStatement->execute()
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 201
-[18-Nov-2025 02:12:48 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 202
-[18-Nov-2025 02:12:48 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 206
-[18-Nov-2025 02:12:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_vip' in 'where clause' in /home/btqsgr3aeb6m/public_html/templates/home.php:246
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(246): PDOStatement->execute()
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 246
-[18-Nov-2025 02:12:59 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 202
-[18-Nov-2025 02:12:59 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 206
-[18-Nov-2025 02:12:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_vip' in 'where clause' in /home/btqsgr3aeb6m/public_html/templates/home.php:246
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(246): PDOStatement->execute()
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 246
-[18-Nov-2025 02:13:05 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 202
-[18-Nov-2025 02:13:05 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 206
-[18-Nov-2025 02:13:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_vip' in 'where clause' in /home/btqsgr3aeb6m/public_html/templates/home.php:246
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(246): PDOStatement->execute()
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 246
-[18-Nov-2025 02:13:11 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 202
-[18-Nov-2025 02:13:11 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 206
-[18-Nov-2025 02:13:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_vip' in 'where clause' in /home/btqsgr3aeb6m/public_html/templates/home.php:246
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(246): PDOStatement->execute()
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 246
-[18-Nov-2025 02:16:26 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 202
-[18-Nov-2025 02:16:26 UTC] PHP Warning:  Undefined variable $filter in /home/btqsgr3aeb6m/public_html/templates/home.php on line 206
-[18-Nov-2025 02:16:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_vip' in 'where clause' in /home/btqsgr3aeb6m/public_html/templates/home.php:246
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(246): PDOStatement->execute()
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 246
-[18-Nov-2025 02:57:07 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 24
-[18-Nov-2025 03:14:26 UTC] PHP Parse error:  syntax error, unexpected token "...", expecting end of file in /home/btqsgr3aeb6m/public_html/templates/home.php on line 17
-[18-Nov-2025 03:14:39 UTC] PHP Parse error:  syntax error, unexpected token "...", expecting end of file in /home/btqsgr3aeb6m/public_html/templates/home.php on line 17
-[18-Nov-2025 03:14:40 UTC] PHP Parse error:  syntax error, unexpected token "...", expecting end of file in /home/btqsgr3aeb6m/public_html/templates/home.php on line 17
-[18-Nov-2025 03:32:33 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 41
-[18-Nov-2025 03:32:36 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 41
-[18-Nov-2025 03:36:25 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 41
-[18-Nov-2025 03:48:01 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 41
-[18-Nov-2025 04:09:36 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 50
-[18-Nov-2025 04:09:39 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 50
-[18-Nov-2025 04:33:19 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:33:25 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:33:25 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:33:25 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:33:26 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:37:25 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:37:25 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:37:25 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:37:25 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:37:26 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:37:26 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:37:26 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 63
-[18-Nov-2025 04:42:32 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:50 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:50 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:51 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:51 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:51 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:51 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:51 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:51 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:51 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:52 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[18-Nov-2025 04:42:52 UTC] PHP Fatal error:  Cannot redeclare isBannerActive() (previously declared in /home/btqsgr3aeb6m/public_html/helpers.php:79) in /home/btqsgr3aeb6m/public_html/templates/home.php on line 58
-[20-Nov-2025 08:04:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/btqsgr3aeb6m/public_html/login.php on line 5
-[20-Nov-2025 08:04:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/btqsgr3aeb6m/public_html/login.php on line 5
-[20-Nov-2025 08:04:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' in /home/btqsgr3aeb6m/public_html/login.php:22
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/login.php(22): PDOStatement->execute()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/login.php on line 22
-[20-Nov-2025 09:37:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'display_name' in 'field list' in /home/btqsgr3aeb6m/public_html/login.php:34
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/login.php(34): PDOStatement->execute()
-#1 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/login.php on line 34
-[23-Nov-2025 06:37:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 06:37:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[23-Nov-2025 11:54:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[24-Nov-2025 13:07:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[24-Nov-2025 13:07:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[24-Nov-2025 13:07:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[26-Nov-2025 06:36:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/btqsgr3aeb6m/public_html/templates/post_form_public.php on line 292
-[26-Nov-2025 10:22:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/btqsgr3aeb6m/public_html/templates/header.php:64) in /home/btqsgr3aeb6m/public_html/helpers.php on line 11
-[27-Nov-2025 10:33:38 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[27-Nov-2025 10:33:46 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[27-Nov-2025 10:34:02 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[27-Nov-2025 10:34:03 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[27-Nov-2025 19:29:18 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[27-Nov-2025 20:59:48 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[27-Nov-2025 20:59:58 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[27-Nov-2025 21:00:55 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[27-Nov-2025 21:22:55 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[27-Nov-2025 22:43:55 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[28-Nov-2025 02:37:43 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (19/11/2025) at position 0 (1): Unexpected character in /home/btqsgr3aeb6m/public_html/templates/home.php:212
-Stack trace:
-#0 /home/btqsgr3aeb6m/public_html/templates/home.php(212): DateTime->__construct('19/11/2025')
-#1 /home/btqsgr3aeb6m/public_html/index.php(78): include('/home/btqsgr3ae...')
-#2 {main}
-  thrown in /home/btqsgr3aeb6m/public_html/templates/home.php on line 212
-[28-Nov-2025 03:23:06 UTC] PHP Warning:  Undefined variable $menuItems in /home/btqsgr3aeb6m/public_html/templates/header.php on line 1
-[28-Nov-2025 03:23:06 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/btqsgr3aeb6m/public_html/templates/header.php on line 1
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:17 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $active in /home/btqsgr3aeb6m/public_html/templates/header.php on line 127
-[28-Nov-2025 05:12:18 UTC] PHP Warning:  Undefined variable $href in /home/btqsgr3aeb6m/public_html/templates/header.php on line 128
+#0 {main}
+  thrown in /home/btqsgr3aeb6m/public_html/admin/gold_topups.php on line 43
+[28-Nov-2025 13:45:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 155
+[28-Nov-2025 13:45:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 155
+[28-Nov-2025 13:45:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/btqsgr3aeb6m/public_html/admin/documents.php on line 156

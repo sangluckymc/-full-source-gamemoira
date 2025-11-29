@@ -1,0 +1,29 @@
+RewriteEngine On
+
+# 1. Force HTTPS + non-www
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.gamemoira\.vn$ [NC]
+RewriteRule ^(.*)$ https://gamemoira.vn/$1 [L,R=301]
+
+# 2. CHẶN TRUY CẬP TRỰC TIẾP /templates/...
+#   - Chỉ chặn request gốc từ browser (THE_REQUEST)
+#   - Rewrite nội bộ từ dang-ky -> templates/auth_register.php vẫn chạy bình thường
+RewriteCond %{THE_REQUEST} \s/+templates/ [NC]
+RewriteRule ^templates/.*$ - [R=404,L]
+
+# 3. URL đẹp cho các trang auth
+RewriteRule ^dang-ky/?$        templates/auth_register.php [L]
+RewriteRule ^dang-nhap/?$      templates/auth_login.php    [L]
+RewriteRule ^quen-mat-khau/?$  templates/auth_forgot.php   [L]
+
+# 4. Router URL đẹp -> index.php (cho các route khác)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
